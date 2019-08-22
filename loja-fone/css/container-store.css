@@ -1,0 +1,37 @@
+.container-store{
+    box-sizing: border-box;
+    box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
+    background-color: #e24647;
+    width:90%;
+    padding:55px 60px 165px 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+     transform: translateX(-50%) translateY(-50%);
+     max-width:1330px;
+    
+     
+}
+@media(max-width:1470px),(max-height:952px){
+    .container-store{
+        transform:none;
+        position:static;
+        width:100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:1350px){
+    .container-store{
+        padding-right: 0;
+        padding-bottom:30px;
+    }
+}
+@media (max-height:965px){
+   .container-store{
+    max-width: 1330px;
+    margin: 0 auto;
+   }
+}
+
+

@@ -1,0 +1,70 @@
+.wrap-product{
+    
+    width: 454px;
+   display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+.wrap-product > .buttons{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    transform:translateY(calc(100% + 98px));
+}
+
+.wrap-product > .buttons .button-store.-second{
+    margin-right:0; 
+    float: left;
+}
+.wrap-product > .buttons .button-store{
+    float: right;
+}
+
+@media(max-width:1350px){
+    .wrap-product > .buttons .button-store.-second{
+        margin-right: 38px;
+        float: none;
+    }
+    .wrap-product > .buttons .button-store{
+        float: none;
+    }
+    
+    .wrap-product{
+        width:100%;
+    }
+    .wrap-product > .buttons{
+        position: static;
+        width:100%;
+        margin:0 auto;
+        transform: none;
+        margin-top:15px;
+        text-align: center;
+    }
+    
+}
+@media(max-width:580px){
+    
+    .wrap-product > .buttons{
+        
+        transition: none;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    
+    .wrap-product > .buttons a,
+    .wrap-product > .buttons button{
+        width:90%;
+    }
+    .wrap-product > .buttons a{
+        margin-bottom:10px;
+    }
+
+    .wrap-product > .buttons button.button-store.-second{
+        margin-right:0; 
+    }
+}
+
+
