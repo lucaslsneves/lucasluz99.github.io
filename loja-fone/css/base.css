@@ -9,12 +9,11 @@ body{
     background-image: linear-gradient(to top, #ff2e63, #252a34);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
-@media(max-width:420px){
-    body{
-     overflow-x:hidden;
-    }
- 
+
+
+
      
- }
+ 

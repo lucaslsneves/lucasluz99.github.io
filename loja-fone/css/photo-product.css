@@ -2,7 +2,7 @@
     position: relative;
     display: inline-block;
     height: 554px;
-    background-color:rgba(255,255,255);
+    background-color:#fff;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
     vertical-align: middle;
@@ -42,4 +42,9 @@
         height: auto;
     }
     
+}
+@media (max-width:420px){
+    .photo-product::before{
+        display: none;
+    }
 }

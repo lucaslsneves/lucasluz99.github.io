@@ -9,7 +9,7 @@
     left:50%;
      transform: translateX(-50%) translateY(-50%);
      max-width:1330px;
-    
+     
      
 }
 @media(max-width:1470px),(max-height:952px){
@@ -33,5 +33,15 @@
     margin: 0 auto;
    }
 }
+
+@media (max-width:420px){
+    .container-store{
+        position: relative;
+        overflow-x:hidden;
+        top:0;
+        left:0;
+    }
+}
+
 
 
